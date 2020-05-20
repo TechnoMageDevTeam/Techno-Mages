@@ -30,6 +30,4 @@ recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<mekanismgenerators:generator:1>);
 recipes.remove(<mekanismgenerators:generator:5>);
 recipes.remove(<mekanismgenerators:generator:6>);
-//Don't touch me!
-//#Add
-//File End
+recipes.remove(<rftools:dimensional_shard>);
