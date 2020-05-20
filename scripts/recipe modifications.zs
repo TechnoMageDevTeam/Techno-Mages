@@ -8,7 +8,7 @@ var coalDustList = [
     <bloodmagic:component:21>
 ] as IItemStack[];
 for dustVar in coalDustList
-  mods.bloodmagic.BloodAltar.addRecipe(<mekanism:ingot:4>, dustVar, 2, 1000,100,40);
+  mods.bloodmagic.BloodAltar.addRecipe(<mekanism:ingot:4>, dustVar, 1, 1000,100,40);
 
 //Reactor Core Recipe
 mods.actuallyadditions.Empowerer.addRecipe(<bigreactors:reactorcasingcores>, <bigreactors:blockyellorium>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, 500, 100);
