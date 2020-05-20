@@ -21,13 +21,21 @@ for i in bannedItems {
     i.clearTooltip();
     i.addTooltip("This item is disabled. Please contact the modpack author to be ignored");
 }
-recipes.remove(<bigreactors:reactorcasingcores>);
-recipes.remove(<bigreactors:reactorcontroller>);
-recipes.remove(<bigreactors:reactorfuelrod>);
-recipes.remove(<bigreactors:reactorcasing>);
-recipes.remove(<rftools:machine_frame>);
-recipes.remove(<mekanism:basicblock:8>);
-recipes.remove(<mekanismgenerators:generator:1>);
-recipes.remove(<mekanismgenerators:generator:5>);
-recipes.remove(<mekanismgenerators:generator:6>);
-recipes.remove(<rftools:dimensional_shard>);
+
+var recipeRemovalList = [
+    <bigreactors:reactorcasingcores>,
+    <bigreactors:reactorcontroller>
+    <bigreactors:reactorfuelrod>
+    <bigreactors:reactorcasing>
+    <rftools:machine_frame>
+    <bigreactors:reactorcasingcores>
+    <rftools:machine_base>
+    <rftools:dimensional_shard>
+    <mekanismgenerators:generator:1>
+    <mekanismgenerators:generator:5>
+    <mekanismgenerators:generator:6>
+    <mekanism:basicblock:8>
+] as IItemStack[];
+for recipe in recipeRemovalList
+    recipes.remove(recipe);
+
