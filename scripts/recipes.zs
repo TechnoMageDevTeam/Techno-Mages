@@ -35,9 +35,25 @@ var recipeRemovalList = [
     <mekanismgenerators:generator:5>,
     <mekanismgenerators:generator:6>,
     <mekanism:basicblock:8>,
-    <mekanism:atomicdisassembler>
+    <mekanism:atomicdisassembler>,
+    <extendedcrafting:material:8>,
+    <extendedcrafting:material:9>,
+    <extendedcrafting:material:10>,
+    <extendedcrafting:material:11>,
+    <extendedcrafting:material:12>,
+    <extendedcrafting:material:14>,
+    <extendedcrafting:material:15>,
+    <extendedcrafting:material:16>,
+    <extendedcrafting:material:17>,
+    <extendedcrafting:material:18>,
+    <extendedcrafting:table_basic>,
+    <extendedcrafting:table_advanced>,
+    <extendedcrafting:table_elite>,
+    <extendedcrafting:table_ultimate>,
+    <extendedcrafting:ender_crafter>,
+    <extendedcrafting:ender_alternator>
 ] as IItemStack[];
-for recipe in recipeRemovalList
+for recipe in recipeRemovalList {
     recipes.remove(recipe);
-
+}
 recipes.removeShapeless(<extendedcrafting:material>, <minecraft:iron_ingot>, <ore:dyeBlack>);
