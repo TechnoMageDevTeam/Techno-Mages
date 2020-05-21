@@ -24,17 +24,18 @@ for i in bannedItems {
 
 var recipeRemovalList = [
     <bigreactors:reactorcasingcores>,
-    <bigreactors:reactorcontroller>
-    <bigreactors:reactorfuelrod>
-    <bigreactors:reactorcasing>
-    <rftools:machine_frame>
-    <bigreactors:reactorcasingcores>
-    <rftools:machine_base>
-    <rftools:dimensional_shard>
-    <mekanismgenerators:generator:1>
-    <mekanismgenerators:generator:5>
-    <mekanismgenerators:generator:6>
-    <mekanism:basicblock:8>
+    <bigreactors:reactorcontroller>,
+    <bigreactors:reactorfuelrod>,
+    <bigreactors:reactorcasing>,
+    <rftools:machine_frame>,
+    <bigreactors:reactorcasingcores>,
+    <rftools:machine_base>,
+    <rftools:dimensional_shard>,
+    <mekanismgenerators:generator:1>,
+    <mekanismgenerators:generator:5>,
+    <mekanismgenerators:generator:6>,
+    <mekanism:basicblock:8>,
+    <mekanism:atomicdisassembler>
 ] as IItemStack[];
 for recipe in recipeRemovalList
     recipes.remove(recipe);
