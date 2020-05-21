@@ -40,3 +40,4 @@ var recipeRemovalList = [
 for recipe in recipeRemovalList
     recipes.remove(recipe);
 
+recipes.removeShapeless(<extendedcrafting:material>, <minecraft:iron_ingot>, <ore:dyeBlack>);
