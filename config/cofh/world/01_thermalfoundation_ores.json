@@ -189,7 +189,8 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					-11325
+					-11325,
+					0
 				]
 			}
 		},
@@ -257,7 +258,8 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					-11325
+					-11325,
+					0
 				]
 			}
 		},
