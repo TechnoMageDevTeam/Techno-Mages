@@ -186,6 +186,12 @@
 					1
 				]
 			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
+				]
+			}
 		},
 		"aluminum": {
 			"enabled": "false",
@@ -212,7 +218,7 @@
 					1
 				]
 			}
-		},
+
 		"iridium": {
 			"enabled": "false",
 			"distribution": "uniform",
@@ -246,6 +252,12 @@
 				"value": [
 					-1,
 					1
+				]
+			}
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
 				]
 			}
 		},
