@@ -393,13 +393,34 @@
 		"rockcrystals": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "rock_crystal_ore",
+				"block": "astralsorcery:blockcustomore",
 				"material": "minecraft:stone",
 				"cluster-size": 3
 			},
 			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"aquamarine": {
+
+			"distribution": "uniform",
+			"generator": {
+				"block": "astralsorcery:customeblocksandore",
+				"material": "minecraft:sand",
+				"cluster-size": 33
+			},
+			"cluster-count": 10,
+			"min-height": 0,
+			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
